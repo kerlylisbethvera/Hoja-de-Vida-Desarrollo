@@ -1,0 +1,130 @@
+body {
+margin:0;
+padding:0;
+background: #f4c3c2;
+}
+.name {
+ width: 100%;  
+ height: 300px; 
+ background: #ed9390;
+ transform: skewY(-5deg);
+}
+
+.name .content  {
+    width: 70%;
+    height:40%;
+    position: absolute;
+    left: 15%;
+}
+.name .content .p-1 {
+    color: black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: 20px;
+    font-size:  60px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .content .p-2 {
+    color: black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .img {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 240px;
+    height: 230px;
+    border-radius: 50%;
+    transform: skewY(5deg);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+.info{
+    width: 90%;
+    height: auto;
+    background: #ed9390;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.info .tituloSeccion {
+    color: #fffffc;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #f4c3c2 dashed;
+}
+.info .tituloInfo {
+    color: #222221;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info .infoInfo {
+    color: #222221;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.Descripcion{
+    width: 90%;
+    height: auto;
+    background: #ed9390;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.Descripcion .tituloSeccion {
+    color: #fffffc;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-size: xx-large;
+    text-align:center;
+    font-weight: bolder;
+    border-bottom: 2px #f4c3c2 dashed;
+}
+.Descripcion .tituloInfo {
+    color: #222221;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.Datos{
+    width: 90%;
+    height: auto;
+    background: #ed9390;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.Datos .tituloSeccion {
+    color: #fffffc;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-size: xx-large;
+    text-align:center;
+    font-weight: bolder;
+    border-bottom: 2px #f4c3c2 dashed;
+
+}
+.Datos .tituloInfo {
+    color: #222221;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+.Datos .infoInfo {
+    color: #222221;
+    font-family: 'Baloo tama 2', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
